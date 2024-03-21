@@ -60,7 +60,10 @@ void loop()
   delay(7000);
 }
 ```
-### OUTPUT
+### OUTPUt
+
+### CIRCUIT DIAGRAM
+
 ![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/f135c64c-4fc9-4503-898b-f287c1043950)
 
 ### SCHEMATIC DIAGRAM
