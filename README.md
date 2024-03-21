@@ -5,7 +5,9 @@
 ## ROLLNUMBER :  212221040175
 ## DEPARTMENT : CSE
 
-### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
+### AIM : 
+
+To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ### Components Required:
 •	Arduino UNO board
@@ -16,7 +18,9 @@
 •	12V source
 •	Breadboard
 •	Jumper wires
+
 ### THEORY 
+
 The L293D quadruple half-H drivers chip allows us to drive 2 motors in both directions, with two PWM outputs from the Arduino we can easily control the speed as well as the direction of rotation of one DC motor. (PWM: Pulse Width Modulation).
 Arduino DC motor control circuit:
 Project circuit schematic diagram is the one below.
@@ -59,6 +63,8 @@ void loop()
 ### OUTPUT
 ![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/f135c64c-4fc9-4503-898b-f287c1043950)
 
+### SCHEMATIC DIAGRAM
+
 ![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/58373624-94f5-4e4a-b92f-dc10c50e9b8a)
 
 ### GRAPH AND TABULATION 
@@ -67,8 +73,6 @@ void loop()
 
 ![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/75e15299-db16-43d7-a24d-8579f24691fb)
 
+### RESULTS 
 
-
-
-### RESULTS AND DISCUSSION 
-
+Tthe speed and the direction of a DC motor using L293D driver ic( H- bridge) iss controlled
