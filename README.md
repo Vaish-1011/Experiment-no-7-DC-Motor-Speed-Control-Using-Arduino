@@ -1,4 +1,10 @@
-# Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino
+# Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
+
+## DATE : 21-03-2024
+## NAME : VAISHNAVI M																		             
+## ROLLNUMBER :  212221040175
+## DEPARTMENT : CSE
+
 ### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ### Components Required:
@@ -26,10 +32,40 @@ TABLE-01 EXITATION TABLE FOR H BRIDGE
 As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is for the push button which toggles the motor direction of rotation. Pins 9 and 10 are PWM signal outputs, at any time there is only 1 active PWM, this allows us to control the direction as well as the speed by varying the duty cycle of the PWM signal. The active PWM pin decides the motor direction of rotation (one at a time, the other output is logic 0).
 
 ### PRGORAM 
+```
+int enable=6;
+int input1=3;
+int input2=4;
 
+void setup()
+{
+  pinMode(enable, OUTPUT);
+  pinMode(input1, OUTPUT);
+  pinMode(input2, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(enable, 10);
+  delay(1000);
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, LOW);
+  delay(7000);
+  digitalWrite(input1, LOW);
+  digitalWrite(input2, HIGH);
+  delay(7000);
+}
+```
 ### OUTPUT
+![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/f135c64c-4fc9-4503-898b-f287c1043950)
+
+![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/58373624-94f5-4e4a-b92f-dc10c50e9b8a)
 
 ### GRAPH AND TABULATION 
+
+![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/08ea1309-e1d0-4ff0-884e-06e037535235)
+
+![image](https://github.com/Vaish-1011/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/135130074/75e15299-db16-43d7-a24d-8579f24691fb)
 
 
 
